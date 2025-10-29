@@ -1,3 +1,4 @@
+<!--
 <?xml version="1.0"?>
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
@@ -19,3 +20,17 @@
     <build_type>ament_python</build_type>
   </export>
 </package>
+-->
+
+<package format="3">
+  <name>spinnything</name>
+  <version>0.0.0</version>
+  <description>Test package for predictedpos publisher</description>
+  <maintainer email="nicolefongjw@gmail.com">Nicole</maintainer>
+  <license>Apache License 2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <depend>rclcpp</depend>
+  <depend>geometry_msgs</depend>
+</package>
+
